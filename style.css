@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-image:linear-gradient(180deg, #ffffff00 0, rgba(12, 0, 0, 0.3) 0),url("./images/background.jpg");
+background-attachment:fixed;    
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.container ul{
+    display: flex;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.container a{
+    text-decoration: none;
+    margin: 20px;
+    padding:5px ;
+    font-size: 20px;
+    color: white;
+}
+.container a:hover {
+    color: aqua ;
+    border-bottom: 3px solid white;
+}
+.container button {
+    border-color: aqua ;
+    padding: 10px;
+    background-color:transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.container button:active{
+    border-color: white;
+    color: aqua;
+}
+.main>.blue{
+    background-color:#14c2a3;
+}
+.main>.blue:active{
+    background-color: transparent;
+    border-color: white;
+}
+.main{
+    margin: 120px 5px;    
+}
+.main h1 {
+    text-transform: uppercase;
+    font-size: 75px;
+color: white;   
+font-family: 'Chakra Petch', sans-serif;
+font-weight: 900;
+}
+.main p{
+    color: white;
+    margin: 30px 5px;
+    width: 90%;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.main button{
+    padding: 15px;
+    margin: 5px;
+}
+.first{
+    padding: 25px;
+    margin-left: 50px;
+}
+.container-fluid{
+    background-color: #0c1226;
+    display: flex;
+    width:100%;
+    background-attachment:fixed;    
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.about{
+    color: white;
+    margin: 25px 10px;
+}
+.about h4{
+    color: aqua;
+    text-transform: uppercase;
+}
+.about p{
+    width: 55%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.about h1{
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+font-weight: 900;
+}
+.inside{
+    color: white;
+padding: 10px;
+border-color: aqua;
+font-family: 'IBM Plex Mono', monospace;
+font-weight: 400;
+}
+.inside h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+}
+.items{
+    color: white;
+    box-shadow: 0px 0px 6px 0px gray;
+margin: 40px 20px;
+
+}
+.items h3{
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 2px;
+}
+.items :hover{
+    box-shadow: 00px 5px 10px aqua;
+}
+.items h3:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.roadmap{
+    text-align: center;
+    width: 250%;
+    margin: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+
+}
+.roadmap h4{
+    color: aqua;
+}
+.boxes{
+    margin: 40px 100px;
+    padding: 10px;
+    box-shadow: 6px 5px 10px 10px gray;
+    color: white;
+
+}
+.boxes ul{
+    display: block;
+    padding: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.work{
+    margin: 70px 10px;
+    color:white;
+    width: 40%;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.work h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+}
+.work h4{
+    color: aqua;
+}
+.width{
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 3px 0px rgb(238, 244, 244);
+    margin: 12px;
+    margin-top: -15px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.width h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+}
+.width:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.team{
+    color: white;
+    margin: 1px 5px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.team h3{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+}
+.people{
+    margin: 4px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px white;
+}
+.people:hover{
+    box-shadow: 0px 0px 3px 0px #14c2a3;
+
+}
+.people ul{
+    margin: 4px 12px;
+}
+.people ul>li img{
+    width: 30px;
+    margin: 10px 5px;
+}
+.people li{
+     list-style: none;
+     margin: 5px 10px;
+}
+.people li img:hover{
+    background-color: aqua;
+    border-radius: 30px;
+}
+.last{
+    margin: 100px;
+width: 250%;
+}
+.last img{
+    width: 100px;    
+}
+.last li{
+list-style: none;
+margin: 12px;
+}
+.last img:hover{
+    background-color: #14c2a3;
+    border-radius: 30px;
+}
+.last ul{
+justify-content: center;
+align-items: center;
+}
+.roadmap form{
+    margin: -122px;
+}
+.roadmap form>input{
+    padding: 15px;
+    width: 30%;
+    margin: 15px;
+    font-size: 20px;
+}
+.roadmap p{
+    margin: 140px;
+}
+.roadmap form button{
+    background-color:#14c2a3;
+    padding: 15px;
+    border-color: aqua;
+}
+.roadmap form button:active{
+    background-color: transparent;
+    border-color: white;
+}
+.latest{
+    display: flex;
+    color: white;
+    width: 100%;
+    margin: 120px -5px;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.latest li{
+    list-style: none;
+    margin: 45px;
+    margin-right: 25px;
+}
+.latest li:hover{
+    color: #14c2a3;
+    cursor: pointer;
+}
+.latest ul{
+justify-content: right;
+width: 100%;
+}
+.latest h5{
+    padding: 15px;
+    margin-right: 105px;
+   margin: 38px;
+    width: 50%;
+}
+@media only screen and (max-width: 500px) {
+  
+    .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .container a{
+        font-size: 15px;
+        padding: 10px;
+        width: 50%;
+align-items: center; 
+
+    }
+    .container a:hover{
+border-bottom:  none
+    }
+    .main h1 {
+        text-transform: uppercase;
+        font-size: 45px;
+    color: white;   
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    }
+    
+    .container>.sub{
+        display: block;
+        padding: 12px;
+        display: flex;
+        margin-left: -20px;
+        width: 50%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container ul{
+width: 100%;
+
+
+}
+.sub  a{
+    display:flex;
+    width: 50%;
+    margin: 1px;
+}
+    
+    .first{
+        width: 0px;
+        }
+        .container-fluid {
+            display: block;
+        }
+        .about p{
+            width: 100%;
+        }
+        .items{
+            background-color: #0c1226;
+        }
+        .items img{
+            width: 100%;
+        }
+        .roadmap{
+            width: 100%;
+            display: block;
+            margin-left: 8px;
+        }
+        .boxes{
+            width: 80%;
+            margin-left: 30px;
+        }
+        .work{
+            width: 100%;
+        }
+        
+        .people img ul>li{
+            width: 50%;
+        }
+        .last ul{
+            margin-left: -110px;
+            width: 40%;
+        }
+        .last  img{
+            width: 70px;
+        }
+        .roadmap h1 {
+            width: 150%;
+        padding: 100px;
+        }
+    .roadmap p{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: -15px;
+    }
+    .roadmap form>input{
+        width: 55%;
+        margin-right: 10px;
+        }
+    .roadmap form>button{
+         margin-right: 190px;
+    }
+.latest{
+    display: block;
+    width: 110%;
+    margin-left: -53px;
+    font-size: 10px;
+}
+.latest h5{
+    width: 100%;
+}
+ .latest ul>li{
+    margin: 5px;
+    margin-left: 50px;
+} 
+.latest li{
+    width: 50px;
+}
+.latest ul{
+    width: 900px;
+    margin: -40px;
+    margin-left: -475px;
+}
+}
